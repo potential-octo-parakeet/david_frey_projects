@@ -13,7 +13,7 @@ $(document).ready(function(){
     })
     $('body').click(function(){
         if($(this).id!=='mvc-tabs'){
-            $('#mvc-tabs div').hide(200);
+            $('#mvc-tabs div').hide(110);
             Click = false;
         }
     });
