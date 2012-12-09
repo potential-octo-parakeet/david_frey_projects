@@ -1,0 +1,5 @@
+#mvc-tabs{}
+#mvc-tabs ul{list-style-type: none;}
+#mvc-tabs ul li{display:inline-block;}
+#mvc-tabs ul li a{text-decoration: none;padding:2px 5px;}
+#mvc-tabs div{display: none;border:1px solid #DDD;padding:0px 10px;}
