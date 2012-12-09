@@ -11,7 +11,7 @@ $(document).ready(function(){
         } 
         return false;     
     }).dblclick(function(){
-        $('#mvc-tabs div').hide();
+        $('#mvc-tabs div').fadeOut();
         Click = false;
     });
 });
