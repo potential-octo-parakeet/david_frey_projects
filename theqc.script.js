@@ -1,7 +1,6 @@
 $(document).ready(function(){
     var Click = false;
-    $('#mvc-tabs ul li').removeAttr('style').click(function(){
-        $(this).css({'background':'white','color':'black !important'});
+    $('#mvc-tabs ul li').click(function(){
         if(!Click){
             Click = true;
             $('#mvc-tabs div').hide();               
