@@ -10,6 +10,6 @@ $(document).ready(function(){
             $('#mvc-tabs div').hide();               
             $($(this).children('a').attr('href')).show();
         } 
-              
+        return false;     
     });
 });
