@@ -10,8 +10,7 @@ $(document).ready(function(){
             $($(this).children('a').attr('href')).show();
         } 
         return false;     
-    });
-    $('#mvc-tabs ul li').dblclick(function(){
+    }).dblclick(function(){
         alert(1);
         $('#mvc-tabs div').hide();
     });
