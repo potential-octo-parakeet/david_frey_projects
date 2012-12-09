@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var Click = false;
-    $('#mvc-tabs ul li').click(function(e){       
+    $('#mvc-tabs ul li').click(function(){       
         if(!Click){
             Click = true;
             $('#mvc-tabs div').hide();               
@@ -10,5 +10,8 @@ $(document).ready(function(){
             $($(this).children('a').attr('href')).show();
         } 
         return false;     
+    });
+    $('#mvc-tabs ul li').dblclick(function(){
+        $('#mvc-tabs div').hide();
     });
 });
