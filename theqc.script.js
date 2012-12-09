@@ -14,9 +14,9 @@ $(document).ready(function(){
         return false;     
     })
     $('body').click(function(){
-        if($(this).id!=='mvc-tabs'){
-            $('#mvc-tabs ul li a').removeAttr('style');
+        if($(this).id!=='mvc-tabs'){            
             $('#mvc-tabs div').hide(110);
+            $('#mvc-tabs ul li a').removeAttr('style');
             Click = false;
         }
     });
