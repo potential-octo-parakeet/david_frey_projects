@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var Click = false;
     $('#mvc-tabs ul li').css({'background':'none'}).click(function(){
-        $(this).css({'background':'white','color':'black'});
+        $(this).css({'background':'white','color':'black !important'});
         if(!Click){
             Click = true;
             $('#mvc-tabs div').hide();               
