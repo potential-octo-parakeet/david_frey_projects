@@ -1,5 +1,5 @@
-#mvc-tabs{width:980px;margin:auto;}
-#mvc-tabs ul{list-style-type: none;}
+#mvc-tabs{width:980px;margin:auto;padding-top:8px;}
+#mvc-tabs ul{list-style-type: none;padding-left:20px;}
 #mvc-tabs ul li{display:inline-block;}
-#mvc-tabs ul li a{text-decoration: none;padding:5px 10px;border-radius: 0px 6px 0px 0px;}
-#mvc-tabs div{display: none;margin-top:-15px;padding:7px 20px;background:white;border-right:1px solid #DDD;border-left:1px solid #DDD;}
+#mvc-tabs ul li a{text-decoration: none;padding:5px 10px;border-radius: 0px 6px 0px 0px;color:white;font-size:13px;}
+#mvc-tabs div{display: none;padding:7px 20px;background:white;border-right:1px solid #DDD;border-left:1px solid #DDD;}
