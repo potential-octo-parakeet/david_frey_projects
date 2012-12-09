@@ -1,4 +1,4 @@
-#mvc-tabs{display:none;}
+#mvc-tabs{display:none !important;}
 #mvc-tabs ul{list-style-type: none;}
 #mvc-tabs ul li{display:inline-block;}
 #mvc-tabs ul li a{text-decoration: none;padding:2px 5px;}
