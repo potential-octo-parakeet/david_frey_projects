@@ -12,6 +12,7 @@ $(document).ready(function(){
         return false;     
     });
     $('#mvc-tabs ul li').dblclick(function(){
+        alert(1);
         $('#mvc-tabs div').hide();
     });
 });
