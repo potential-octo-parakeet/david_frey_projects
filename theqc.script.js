@@ -10,8 +10,11 @@ $(document).ready(function(){
             $($(this).children('a').attr('href')).show();
         } 
         return false;     
-    }).dblclick(function(){
-        $('#mvc-tabs div').fadeOut();
-        Click = false;
+    })
+    $('body').click(function(){
+        if($(this).id!=='mvc-tabs'){
+            $('#mvc-tabs div').hide();
+            Click = false;
+        }
     });
 });
