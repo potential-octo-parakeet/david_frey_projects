@@ -1,6 +1,8 @@
 $(document).ready(function(){
     var Click = false;
     $('#mvc-tabs ul li').click(function(){
+        $('#mvc-tabs ul li a').removeAttr('style');
+        $(this).children('a').css({'color':'black','background':'white'})
         if(!Click){
             Click = true;
             $('#mvc-tabs div').hide();               
@@ -13,6 +15,7 @@ $(document).ready(function(){
     })
     $('body').click(function(){
         if($(this).id!=='mvc-tabs'){
+            $('#mvc-tabs ul li a').removeAttr('style');
             $('#mvc-tabs div').hide(110);
             Click = false;
         }
