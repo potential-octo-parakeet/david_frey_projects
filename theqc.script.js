@@ -11,6 +11,6 @@ $(document).ready(function(){
         } 
         return false;     
     }).dblclick(function(){
-        $('#mvc-tabs div').hide('slide',{direction:'up'});
+        $('#mvc-tabs div').hide();
     });
 });
